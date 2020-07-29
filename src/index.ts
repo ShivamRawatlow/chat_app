@@ -13,9 +13,11 @@ import {
 } from './utils/users';
 import { UserConfirmation } from './enums/UserConfirmation';
 import { User } from './models/User';
+const cors = require('cors');
 
 const app = express();
 const server = http.createServer(app);
+app.use(cors());
 const io = socketio(server);
 
 const port = process.env.PORT || 5000;
