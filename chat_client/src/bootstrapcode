@@ -1,0 +1,123 @@
+ //join page
+  <div className='container' style={{ height: '70vh' }}>
+      <div className='row h-100 justify-content-center  align-items-center '>
+        <div className='col-5 shadow p-3 mb-5 bg-white rounded'>
+          <h1 className='display-2' style={{ marginLeft: '1rem' }}>
+            Join
+          </h1>
+          <form>
+            <div className='form-group '>
+              <input
+                type='name'
+                className='form-control'
+                placeholder='user name'
+              />
+            </div>
+            <div className='form-group'>
+              <input
+                type='name'
+                className='form-control'
+                placeholder='room name'
+              />
+            </div>
+            <div className='d-flex justify-content-center'>
+              <button type='submit' className='btn btn-primary '>
+                Join
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+//chat page
+   <>
+     
+      <div className='container-fluid' style={{ height: '100%' }}>
+        <div className='row h-100 '>
+          <div className='col-2 h-100 bg-secondary text-white'>
+            <div className='row darksecondary h-25 align-items-center'>
+              <h1 className='display-3' style={{ marginLeft: '1rem' }}>
+                Users
+              </h1>
+            </div>
+            <div>
+              <ul className='userlist'>
+                <li className='li-item'>Cras justo odio</li>
+                <li className='li-item'>Dapibus ac facilisis in</li>
+                <li className='li-item'>Morbi leo risus</li>
+                <li className='li-item'>Porta ac consectetur ac</li>
+                <li className='li-item'>Vestibulum at eros</li>
+                <li className='li-item'>Cras justo odio</li>
+                <li className='li-item'>Dapibus ac facilisis in</li>
+                <li className='li-item'>Morbi leo risus</li>
+                <li className='li-item'>Porta ac consectetur ac</li>
+                <li className='li-item'>Vestibulum at eros</li>
+                <li className='li-item'>Cras justo odio</li>
+                <li className='li-item'>Dapibus ac facilisis in</li>
+                <li className='li-item'>Morbi leo risus</li>
+                <li className='li-item'>Porta ac consectetur ac</li>
+                <li className='li-item'>Vestibulum at eros</li>
+                <li className='li-item'>Cras justo odio</li>
+                <li className='li-item'>Dapibus ac facilisis in</li>
+                <li className='li-item'>Morbi leo risus</li>
+                <li className='li-item'>Porta ac consectetur ac</li>
+                <li className='li-item'>Vestibulum at eros</li>
+              </ul>
+            </div>
+          </div>
+          <div className='col-10 bg-primary'>
+            <footer
+              className='chat-footer'
+              style={{
+                backgroundColor: '#f5f5f5',
+                position: 'fixed',
+                width: '100%',
+                height: '60px',
+                bottom: '0',
+                margin: '0',
+                padding: '0',
+              }}
+            >
+              <div className='container-fluid'>This is my footer</div>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </>
+
+
+
+//Materialize css code
+
+ <div className='container' style={{ marginTop: '60px' }}>
+      <div className='row'>
+        <div className='col m3'></div>
+        <form className='col s12 m6 z-depth-1' style={{ padding: '20px' }}>
+          <div className='input-field col s12'>
+            <h1 style={{ marginLeft: '1rem' }}>Join</h1>
+            <input
+              placeholder='User Name'
+              id='first_name'
+              type='text'
+              className='validate'
+              autoComplete='off'
+            />
+          </div>
+          <div className='input-field col s12'>
+            <input
+              placeholder='Room Name'
+              id='last_name'
+              type='text'
+              className='validate'
+              autoComplete='off'
+            />
+          </div>
+        </form>
+        <div className='col m3'></div>
+      </div>
+    </div>
+
+
